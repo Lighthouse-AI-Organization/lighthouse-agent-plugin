@@ -18,11 +18,11 @@ Restart the session, then sign in to Lighthouse when the agent first calls a too
 ### Claude (claude.ai and Claude Desktop)
 
 1. Add the Lighthouse connector: Settings > Connectors > Add custom connector, URL `https://api.lighthouseai.co/public-api/mcp`.
-2. For the skills, zip any folder under `skills/` and upload it in Settings > Capabilities > Skills.
+2. For the skills, zip one folder from `skills/` and upload it in Claude under Customize > Skills.
 
 ### Cursor, VS Code and other agents
 
-Add the MCP server from Lighthouse under Settings > API & Agents > Connect an agent, then copy the `skills/` folder into your agent's skills or rules folder.
+Add the MCP server from Lighthouse under Settings > API & Agents > Connect an agent. For the skills, copy the folders in `skills/` into your project's `.cursor/skills/` folder (Cursor) or `.github/skills/` folder (VS Code with GitHub Copilot).
 
 If you already added the Lighthouse connector by hand, installing the plugin adds a second Lighthouse server. Keep one of them.
 
