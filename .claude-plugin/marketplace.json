@@ -1,0 +1,15 @@
+{
+    "name": "lighthouse",
+    "description": "The Lighthouse plugin: connects the Lighthouse MCP server and adds skills for working with Lighthouse metrics and alerts.",
+    "owner": {
+        "name": "Lighthouse",
+        "url": "https://lighthouseai.co"
+    },
+    "plugins": [
+        {
+            "name": "lighthouse",
+            "source": "./",
+            "description": "Connects the Lighthouse MCP server and adds skills for building metrics, investigating alerts, fixing failing metrics, exploring data, tuning alert noise, connecting sources and managing members."
+        }
+    ]
+}

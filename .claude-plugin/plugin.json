@@ -1,0 +1,20 @@
+{
+    "name": "lighthouse",
+    "displayName": "Lighthouse",
+    "version": "1.0.0",
+    "description": "Connects the Lighthouse MCP server and adds skills for building metrics, investigating alerts, fixing failing metrics, exploring data, tuning alert noise, connecting sources and managing members.",
+    "author": {
+        "name": "Lighthouse",
+        "url": "https://lighthouseai.co"
+    },
+    "homepage": "https://lighthouseai.co",
+    "keywords": [
+        "lighthouse",
+        "metrics",
+        "monitoring",
+        "alerts",
+        "data"
+    ],
+    "repository": "https://github.com/Lighthouse-AI-Organization/lighthouse-agent-plugin",
+    "license": "MIT"
+}

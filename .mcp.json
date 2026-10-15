@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "lighthouse": {
+            "type": "http",
+            "url": "https://api.lighthouseai.co/public-api/mcp"
+        }
+    }
+}
