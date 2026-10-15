@@ -1,13 +1,14 @@
 {
     "name": "lighthouse",
     "displayName": "Lighthouse",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Connects the Lighthouse MCP server and adds skills for building metrics, investigating alerts, fixing failing metrics, exploring data, tuning alert noise, connecting sources and managing members.",
     "author": {
         "name": "Lighthouse",
         "url": "https://lighthouseai.co"
     },
     "homepage": "https://lighthouseai.co",
+    "privacyPolicyUrl": "https://lighthouseai.co/privacy-policy",
     "keywords": [
         "lighthouse",
         "metrics",
