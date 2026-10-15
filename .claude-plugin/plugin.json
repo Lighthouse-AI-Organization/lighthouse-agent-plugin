@@ -9,6 +9,9 @@
     },
     "homepage": "https://lighthouseai.co",
     "privacyPolicyUrl": "https://lighthouseai.co/privacy-policy",
+    "termsOfServiceUrl": "https://lighthouseai.co/terms-and-conditions",
+    "supportUrl": "https://lighthouseai.co/support",
+    "documentationUrl": "https://lighthouseai.co/docs/mcp",
     "keywords": [
         "lighthouse",
         "metrics",
