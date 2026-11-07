@@ -22,7 +22,7 @@ If a tool named here is missing, the user's key or role does not allow it. Say w
 
 ## Safety rules
 
-- **Someone else's metric.** `get_metric_configuration` returns the metric's `ownerId`. If it is not the user's own metric, tell the user whose metric it is (the oldest entry in `get_metric_change_history` names who created it) and ask before changing, running or deleting it.
+- **Someone else's metric.** `get_metric_configuration` returns `ownership` with the owner's and creator's names and `isOwnedByCaller`. If the metric belongs to someone other than the user, tell the user whose metric it is and ask before changing it. `update_metric`, `run_metric`, `delete_metric` and `act_on_segment_result` on such a metric change nothing until called again with `confirmedNotOwner: true`; set it only after the user confirms.
 - Do not change a LIVE metric without the user's yes on the exact change.
 - `send_test_notification` sends a real message to the metric's channel or recipients. Call it only when the user asks to see the new alert, and only once.
 - Do not use `run_metric` to test a threshold: it can send real alerts. Use `preview_metric_history` or `test_metric`.

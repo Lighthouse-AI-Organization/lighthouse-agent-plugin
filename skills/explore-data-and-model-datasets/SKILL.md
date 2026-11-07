@@ -29,6 +29,7 @@ If a tool named here is missing, the user's key or role does not allow it. Say w
 - `query_data_source` only accepts one read-only SELECT or WITH. If it refuses a query, fix the SQL rather than working around the check.
 - Before `update_data_set` removes a column from metrics or takes a role away, warn the user: metrics built on the data set change with it and can start failing. Ask for a yes.
 - Recommend a read-only database user for the data source if the user is unsure what it can reach.
+- Deleting a data set or data source is for organization admins (admin-members-and-groups skill). Never delete one to start over; adjust it with `update_data_set`.
 
 ## Report back
 

@@ -1,6 +1,6 @@
 ---
 name: connect-sources
-description: Connect a data source (Postgres, Snowflake, BigQuery, SQL Server, HTTP connector, Mixpanel), a Slack or email notification destination, or an integration action source to Lighthouse, or reconnect one with new credentials, through a secure Lighthouse link so credentials never pass through the chat. Use when the user wants to connect, add, reconnect or fix the credentials of a source in Lighthouse.
+description: Connect a data source (Postgres, Snowflake, BigQuery, SQL Server, HTTP connector, Mixpanel), a Slack or email notification destination, or an integration action source to Lighthouse, or reconnect one with new credentials, through a secure Lighthouse link so credentials never go through the chat. Use when the user wants to connect, add, reconnect or fix the credentials of a source in Lighthouse.
 ---
 
 # Connect sources
